@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+h1,h2{
+    color: white;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    margin: 0 15px;
+    height: 30px;
+    width: 2in;
+    background: linear-gradient(to right, rgb(100, 27, 235),lightgreen);
+    color: darkblue;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+.main{
+    height: 4in;
+    width: 3in;
+    margin: 50px auto;
+}
+
+.main .container{
+    height: 100%;
+    width: 100%;
+    background: lime;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.container .head{
+    height: 10%;
+    width: 100%;
+    background: #000;
+}
+.container .counting{
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+    background: #000;
+}
+
+.container .btns{
+    height: 50%;
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    background: red;
+}
+
+.container .text{
+    height: 15%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.text span{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+}
