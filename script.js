@@ -24,6 +24,8 @@ function decrement(){
 }
 
 function save(){
-    console.log(count);
+    let counter = count + '-'
+   let list= document.querySelector('p')   
+   list.innerText +=counter
 }
 
