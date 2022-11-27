@@ -17,7 +17,6 @@ function decrement(){
     count--
     document.querySelector('h2').innerText=count
     document.querySelector('span').innerHTML='decremented'
-    console.log("clicked");
     if(count<10){
         document.getElementById("off").disabled= false;
     }
@@ -27,5 +26,6 @@ function save(){
     let counter = count + '-'
    let list= document.querySelector('p')   
    list.innerText +=counter
+
 }
 

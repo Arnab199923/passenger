@@ -24,7 +24,7 @@ button{
 }
 
 button:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .main{
     height: 4in;
@@ -35,7 +35,7 @@ button:hover{
 .main .container{
     height: 100%;
     width: 100%;
-    background: lime;
+    background: linear-gradient(50deg, lightblue 40%, blue 100%);
     /* display: flex;
     justify-content: center; */
 }
@@ -43,34 +43,33 @@ button:hover{
 .container .head{
     height: 10%;
     width: 100%;
-    background: #000;
 }
 .container .counting{
     height: 10%;
     width: 100%;
     margin-top: 10px;
-    background: #000;
 }
-
+.counting h2{
+    border: 1px solid red;
+    border-radius: 12px;
+}
 .container .btns{
     height: 50%;
     width: 100%;
     margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
-    background: red;
 }
 
 .container .text{
     height: 15%;
     width: 100%;
-    background: #000;
     display: flex;
     justify-content: center;
 }
 
 .text span{
-    color: white;
+    color: rgb(0, 104, 17);
     text-align: center;
     font-size: 23px;
     text-transform: uppercase;
